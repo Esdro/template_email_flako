@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.wrapper{
+    width: 100%;
+    table-layout: fixed;
+    background-color: #efefef;
+    padding: 20px 0;
+}
+
+table.main{
+    border-spacing: 0;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    /* color: #4a4a4a; */
+    font-family: sans-serif;
+    box-shadow: 2px 4px 8px rgb(0 0 0/16%);
+    
+}
+tr.logo-section {
+    height: 100px;
+    text-align: center;
+}
+
+
+tr.logo-section > .img-wrapper {
+    height: 100px;
+}
+tr.logo-section > .img-wrapper a {
+
+    display: block;
+    height: 100px;
+
+}
+tr.logo-section > .img-wrapper a img{
+    width: 100px;
+    object-fit: contain;
+}
+
+.for-background-content > tbody > tr > td.content-icon {
+    width: 100%;
+
+}
+.for-background-content > tbody > tr > td.content-icon{
+    max-width: 150px;
+}
+
+.for-background-content > tbody > tr > td.content-icon > a {
+    width: 90%;
+    display: inline-flex;
+    margin-inline: auto;
+    max-width: 260px;
+    vertical-align: middle;
+    text-align: center;
+    height: 100px;
+    max-height: 100px;
+    align-items: center;
+}
+
+.for-background-content > tbody > tr > td.content-icon > a > img{
+    width: 80%;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.for-background-content tr td.content-styled{
+    text-align: center;
+    background-color: #ccc;
+    color: white;
+    width: 80%;
+    margin-inline: auto ;
+    display: block;
+    word-wrap: break-word;
+}
+
+.for-background-content tr td.content-icon {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content-small {
+    margin: 4px;
+    font-size: .8rem;
+}
+.footer-start  td {
+    background-color: #ccc;
+}
+
+.cgu-wrapper > a {
+    width: 100%;
+    display: inline-block;
+    max-width: 260px;
+    margin: 3px;
+}
+
+.copyright-wrapper > p {
+    margin: 3px;
+}
